@@ -1,7 +1,7 @@
 baseurl = "https://locahlo.st/"
 contentdir    = "content"
 layoutdir     = "layouts"
-publishdir    = "~/website/locahlo.st/"
+publishdir    = "public"
 title = "Locahlost"
 canonifyurls  = true
 
