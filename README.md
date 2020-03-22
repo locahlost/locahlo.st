@@ -14,6 +14,7 @@ Currently, used theme is [beautifulhugo](https://github.com/halogenica/beautiful
 5. Post `index.md` must have a header which contain metadata. More info bellow.
 6. Commit with obvious name like `[post][fix] awful typo` or `[post][new] The post that rocks!`
 7. If you want a peer verification, push your branch and ask for review :-)
+8. Since website build and publication isn't automatized, a pull request should be done rather than pushing to master.
 
 ```
 ---
