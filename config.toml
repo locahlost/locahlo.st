@@ -1,0 +1,40 @@
+baseurl = "https://locahlo.st/"
+contentdir    = "content"
+layoutdir     = "layouts"
+publishdir    = "~/website/locahlo.st/"
+title = "Locahlost"
+canonifyurls  = true
+
+DefaultContentLanguage = "en"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsUseClasses = true
+pygmentCodeFences = true
+
+[Params]
+  subtitle = "Weblog about tech"
+  logo = "/img/avatar.png"
+  favicon = "/img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = true
+  rss = true
+  comments = false
+
+[Author]
+  email = "contact@locahlo.st"
+  author = "Charlie root"
+
+[[menu.main]]
+    name = "Posts"
+    url = "/post/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 3
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
